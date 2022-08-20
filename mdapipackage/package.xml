@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DevTraining</fullName>
+    <types>
+        <members>AccountTriggerHandlerTest</members>
+        <members>CaseListPageController</members>
+        <members>LeadTriggerHandler</members>
+        <members>LeadTriggerHandlerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CaseListPage</members>
+        <members>HelloWorld</members>
+        <members>OpptyListPage</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>InsertPrimaryContact</members>
+        <members>LeadTrigger</members>
+        <members>UpdateTitle</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Student__c.Additional_Curriculum__c</members>
+        <members>Student__c.Full_Name__c</members>
+        <members>Student__c.Teacher__c</members>
+        <members>Teacher__c.Has_Active_Contract__c</members>
+        <members>Teacher__c.Job_End_Date__c</members>
+        <members>Teacher__c.Job_Start_Date__c</members>
+        <members>Teacher__c.Job_Type__c</members>
+        <members>Teacher__c.Status__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Student__c</members>
+        <members>Teacher__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Student__c-Student Layout</members>
+        <members>Teacher__c-Teacher Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Teacher__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>54.0</version>
+</Package>
