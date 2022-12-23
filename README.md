@@ -4,11 +4,11 @@
 2. Open VS Code once installed the Salesforce Extensions
 3. From the left-hand side panel, Select a folder (directory) to copy the metadata locally
 4. Execute the following commands in VS code's terminal (make sure you have git installed, refer [Git Guides](https://github.com/git-guides/install-git) to install git)
-    a. git init
-    b. git clone https://github.com/siddharth10p/DevTraining
-    c. sfdx force:auth:web:login -a MyApp
-    d. Use your Salesforce org credentials to authorize Salesforce cli
-    e. sfdx force:source:deploy -u MyApp
+    * git init
+    * git clone https://github.com/siddharth10p/DevTraining
+    * sfdx force:auth:web:login -a MyApp
+    * Use your Salesforce org credentials to authorize Salesforce cli
+    * sfdx force:source:deploy -u MyApp
 5. Login in your devloper org to verify that the componets are deployed
 
 -----------------------------------------------------------------------------
