@@ -1,4 +1,18 @@
-# Salesforce DX Project: Next Steps
+# How to Deploy this app in your org?
+
+1. Setup [VS Code](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/set-up-visual-studio-code).
+2. Open VS Code once installed the Salesforce Extensions
+3. From the left-hand side panel, Select a folder (directory) to copy the metadata locally
+4. Execute the following commands in VS code's terminal (make sure you have git installed, refer [Git Guides](https://github.com/git-guides/install-git) to install git)
+    a. git init
+    b. git clone https://github.com/siddharth10p/DevTraining
+    c. sfdx force:auth:web:login -a MyApp
+    d. Use your Salesforce org credentials to authorize Salesforce cli
+    e. sfdx force:source:deploy -u MyApp
+5. Login in your devloper org to verify that the componets are deployed
+
+-----------------------------------------------------------------------------
+## Learn about Salesforce DX Project:
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
